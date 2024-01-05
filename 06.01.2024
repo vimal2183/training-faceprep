@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="god.css"
+  </head>
+  
+  <body>
+    <h1>pH Scale</h1>
+    <p style="background-color:rgb(22, 22, 248)">14.0 very base</p>
+    <p style="background-color:rgb(44, 44, 250)">13</p>
+    <p style="background-color:rgb(79, 79, 255)">12</p>
+    <p style="background-color:rgb(94, 94, 255)">11</p>
+    <p style="background-color:rgb(102, 102, 250)">10</p>
+    <p style="background-color:rgb(112, 112, 245)">9</p>
+    <p style="background-color:rgb(152, 152, 241)">8</p>
+    <p style="background-color:rgb(2, 211, 2)">7 neutral</p>
+    <p style="background-color:rgb(250, 176, 176)">6</p>
+    <p style="background-color:rgb(250, 151, 151)">5</p>
+    <p style="background-color:rgb(252, 120, 120)">4</p>
+    <p style="background-color:rgb(253, 115, 115)">3</p>
+    <p style="background-color:rgb(253, 96, 96)">2</p>
+    <p style="background-color:rgb(253, 78, 78)">1</p>
+    <p style="background-color:red">0 very acid</p>
+  </body>
+
+//////css//////
+
+p{
+    color:aliceblue;
+    margin:0;
+    padding:7.5px;
+    
+}
+h1{
+    border-style: solid;
+    border-color:aliceblue ;
+    background-color: aliceblue;
+}
+body{
+    background-color: darkturquoise;
+}
