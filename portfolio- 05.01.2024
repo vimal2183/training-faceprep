@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+<h1>Vimal R</h1>
+<p>Full-Stack Developer</p>
+    </div>
+    <div class="body">
+        <div class="aside">
+            <h1>projects </h1>
+            <p>calculator</p>
+            <p>insta clone</p>
+            <p>youtube clone</p>
+        </div>
+        <div class="content">
+            <h1>skills </h1>
+            <p>Critical thinking. Employers expect candidates to have strong critical thinking skills to solve problems and make informed decisions.</p>
+            <p>Creativity.</p>
+            <p>Leadership.</p>
+            <p>Teamwork.</p>
+            <p>Time management. </p>
+            <p>Organization.</p>
+            <p>Attention to detail.</p> 
+            <p>Adaptability.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>contact number </h1>
+        <p>1234567890</p>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+*********css*********
+
+.header {
+    padding: 20px 20px 0px 20px;
+    background-color:#f4caca;
+}
+
+
+.body {
+    display: flex;
+    gap: 25px;
+    
+}
+
+.aside {
+    width: 250px;
+    padding: 20px;
+    background-color:#313338;
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+    background-color:#fffffc;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#ffcdcd;
+}
