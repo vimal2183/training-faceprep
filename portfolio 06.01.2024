@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="god.css" />
+  </head>
+  
+  <body>
+    
+    <div class="header">
+      <h1>Vimal R</h1>
+      <p>full stack developer</p>
+    </div>
+    <div class="aside">
+      <h1>Projects</h1>
+      <a href="https://www.youtube.com/watch?v=4ykAepVkG5Y"><p>youtube cloning</p></a>
+      <a href="https://www.youtube.com/watch?v=TXCj39dGLlY"><p>calculator</p></a>   
+    </div>
+    <div class="main">
+      <h1>Skills</h1>
+      <ul>
+      <li>Critical thinking. Employers expect candidates to have strong critical thinking skills to solve problems and make informed decisions.</li>
+      <li>Creativity. </li>
+      <li>Leadership. </li>
+      <li>Teamwork. </li>
+      <li>Time management.</li>
+      <li>Organization. </li>
+      <li>Attention to detail.</li> 
+      <li>Adaptability.</li>
+    </ul>
+    </div>
+    <div class="footer">
+      <h1>Contact Number</h1>
+      <p>9952280729, 7592790480</p>
+    </div>
+
+   
+  </body>
+</html>
+
+
+
+*********css**********
+
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 130px auto 130px;
+    height:100vh;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.header{
+    background-color: aqua;
+    grid-column-start: span 3;
+    border-style: solid;
+}
+
+.aside{
+    background-color:bisque;
+    grid-column-start: span 1;
+    border-style: solid;
+}
+
+.main{
+    background-color:cadetblue;
+    grid-column-start: span 2;
+    border-style: solid;
+}
+
+.footer{
+    background-color:rgba(0, 255, 255, 0.925);
+    grid-column-start: span 3;
+    border-style: solid;
+}
+
+.header h1{
+    margin-left: 10px;
+    font-style: oblique;
+}
+
+.aside h1{
+    margin-left: 10px;
+    font-style: oblique;
+}
+
+.main h1{
+    margin-left: 10px;
+    font-style: oblique;
+}
+
+.footer h1{
+    margin-left: 10px;
+    font-style: oblique;
+}
+
+.header p{
+    margin-left: 40px;
+    font-size:larger;
+}
+
+.aside p{
+    margin-left: 40px;
+    font-size:larger;
+}
+
+ul{
+    margin-left: 40px;
+    font-size:x-large;
+    margin-right: 15px;
+}
+
+.footer p{
+    margin-left: 40px;
+    font-size:larger;
+}
